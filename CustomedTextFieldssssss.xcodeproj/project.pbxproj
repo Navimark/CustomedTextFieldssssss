@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D0574481AAE8A6300CD9324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0574471AAE8A6300CD9324 /* main.m */; };
+		5D05744B1AAE8A6300CD9324 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D05744A1AAE8A6300CD9324 /* AppDelegate.m */; };
+		5D05744E1AAE8A6300CD9324 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D05744D1AAE8A6300CD9324 /* ViewController.m */; };
+		5D0574511AAE8A6400CD9324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D05744F1AAE8A6400CD9324 /* Main.storyboard */; };
+		5D0574531AAE8A6400CD9324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D0574521AAE8A6400CD9324 /* Images.xcassets */; };
+		5D0574561AAE8A6400CD9324 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D0574541AAE8A6400CD9324 /* LaunchScreen.xib */; };
+		5D0574621AAE8A6400CD9324 /* CustomedTextFieldssssssTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0574611AAE8A6400CD9324 /* CustomedTextFieldssssssTests.m */; };
+		5D05746E1AAE8B3A00CD9324 /* NumericalInputTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D05746D1AAE8B3A00CD9324 /* NumericalInputTextField.m */; };
+		5D0574771AAE8BD400CD9324 /* GCPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0574711AAE8BD400CD9324 /* GCPlaceholderTextView.m */; };
+		5D0574781AAE8BD400CD9324 /* LengthLimitedInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0574731AAE8BD400CD9324 /* LengthLimitedInputView.m */; };
+		5D0574791AAE8BD400CD9324 /* PickerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0574761AAE8BD400CD9324 /* PickerTextField.m */; };
+		5D05747D1AAE8F4100CD9324 /* ACDateTimePickTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D05747C1AAE8F4100CD9324 /* ACDateTimePickTextField.m */; };
+		752B7A5DB19C1188644F93F9 /* libPods-CustomedTextFieldssssss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F071BB154F0E7CB32CBA7C92 /* libPods-CustomedTextFieldssssss.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D05745C1AAE8A6400CD9324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D05743A1AAE8A6300CD9324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0574411AAE8A6300CD9324;
+			remoteInfo = CustomedTextFieldssssss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EA831B4401790DC79F14808 /* Pods-CustomedTextFieldssssss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomedTextFieldssssss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomedTextFieldssssss/Pods-CustomedTextFieldssssss.debug.xcconfig"; sourceTree = "<group>"; };
+		5D0574421AAE8A6300CD9324 /* CustomedTextFieldssssss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomedTextFieldssssss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0574461AAE8A6300CD9324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0574471AAE8A6300CD9324 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D0574491AAE8A6300CD9324 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D05744A1AAE8A6300CD9324 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D05744C1AAE8A6300CD9324 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D05744D1AAE8A6300CD9324 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D0574501AAE8A6400CD9324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D0574521AAE8A6400CD9324 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5D0574551AAE8A6400CD9324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5D05745B1AAE8A6400CD9324 /* CustomedTextFieldssssssTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomedTextFieldssssssTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0574601AAE8A6400CD9324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0574611AAE8A6400CD9324 /* CustomedTextFieldssssssTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomedTextFieldssssssTests.m; sourceTree = "<group>"; };
+		5D05746C1AAE8B3A00CD9324 /* NumericalInputTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericalInputTextField.h; sourceTree = "<group>"; };
+		5D05746D1AAE8B3A00CD9324 /* NumericalInputTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericalInputTextField.m; sourceTree = "<group>"; };
+		5D0574701AAE8BD400CD9324 /* GCPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCPlaceholderTextView.h; sourceTree = "<group>"; };
+		5D0574711AAE8BD400CD9324 /* GCPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCPlaceholderTextView.m; sourceTree = "<group>"; };
+		5D0574721AAE8BD400CD9324 /* LengthLimitedInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LengthLimitedInputView.h; sourceTree = "<group>"; };
+		5D0574731AAE8BD400CD9324 /* LengthLimitedInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LengthLimitedInputView.m; sourceTree = "<group>"; };
+		5D0574751AAE8BD400CD9324 /* PickerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerTextField.h; sourceTree = "<group>"; };
+		5D0574761AAE8BD400CD9324 /* PickerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerTextField.m; sourceTree = "<group>"; };
+		5D05747B1AAE8F4100CD9324 /* ACDateTimePickTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDateTimePickTextField.h; sourceTree = "<group>"; };
+		5D05747C1AAE8F4100CD9324 /* ACDateTimePickTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDateTimePickTextField.m; sourceTree = "<group>"; };
+		98D521BCBED6F7ACEB4D85C3 /* Pods-CustomedTextFieldssssss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomedTextFieldssssss.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomedTextFieldssssss/Pods-CustomedTextFieldssssss.release.xcconfig"; sourceTree = "<group>"; };
+		F071BB154F0E7CB32CBA7C92 /* libPods-CustomedTextFieldssssss.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomedTextFieldssssss.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D05743F1AAE8A6300CD9324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752B7A5DB19C1188644F93F9 /* libPods-CustomedTextFieldssssss.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0574581AAE8A6400CD9324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D0574391AAE8A6300CD9324 = {
+			isa = PBXGroup;
+			children = (
+				5D0574441AAE8A6300CD9324 /* CustomedTextFieldssssss */,
+				5D05745E1AAE8A6400CD9324 /* CustomedTextFieldssssssTests */,
+				5D0574431AAE8A6300CD9324 /* Products */,
+				B622345C836D089400D1B856 /* Pods */,
+				7D6437D4A0FA5075BD964CF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D0574431AAE8A6300CD9324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D0574421AAE8A6300CD9324 /* CustomedTextFieldssssss.app */,
+				5D05745B1AAE8A6400CD9324 /* CustomedTextFieldssssssTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D0574441AAE8A6300CD9324 /* CustomedTextFieldssssss */ = {
+			isa = PBXGroup;
+			children = (
+				5D05747A1AAE8F4100CD9324 /* DateTimePickTextField */,
+				5D05746F1AAE8BD400CD9324 /* LengthLimitedInputView */,
+				5D0574741AAE8BD400CD9324 /* PickerViewTextField */,
+				5D05746B1AAE8B3A00CD9324 /* NumericalInputTextField */,
+				5D0574491AAE8A6300CD9324 /* AppDelegate.h */,
+				5D05744A1AAE8A6300CD9324 /* AppDelegate.m */,
+				5D05744C1AAE8A6300CD9324 /* ViewController.h */,
+				5D05744D1AAE8A6300CD9324 /* ViewController.m */,
+				5D05744F1AAE8A6400CD9324 /* Main.storyboard */,
+				5D0574521AAE8A6400CD9324 /* Images.xcassets */,
+				5D0574541AAE8A6400CD9324 /* LaunchScreen.xib */,
+				5D0574451AAE8A6300CD9324 /* Supporting Files */,
+			);
+			path = CustomedTextFieldssssss;
+			sourceTree = "<group>";
+		};
+		5D0574451AAE8A6300CD9324 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D0574461AAE8A6300CD9324 /* Info.plist */,
+				5D0574471AAE8A6300CD9324 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D05745E1AAE8A6400CD9324 /* CustomedTextFieldssssssTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D0574611AAE8A6400CD9324 /* CustomedTextFieldssssssTests.m */,
+				5D05745F1AAE8A6400CD9324 /* Supporting Files */,
+			);
+			path = CustomedTextFieldssssssTests;
+			sourceTree = "<group>";
+		};
+		5D05745F1AAE8A6400CD9324 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D0574601AAE8A6400CD9324 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D05746B1AAE8B3A00CD9324 /* NumericalInputTextField */ = {
+			isa = PBXGroup;
+			children = (
+				5D05746C1AAE8B3A00CD9324 /* NumericalInputTextField.h */,
+				5D05746D1AAE8B3A00CD9324 /* NumericalInputTextField.m */,
+			);
+			path = NumericalInputTextField;
+			sourceTree = "<group>";
+		};
+		5D05746F1AAE8BD400CD9324 /* LengthLimitedInputView */ = {
+			isa = PBXGroup;
+			children = (
+				5D0574701AAE8BD400CD9324 /* GCPlaceholderTextView.h */,
+				5D0574711AAE8BD400CD9324 /* GCPlaceholderTextView.m */,
+				5D0574721AAE8BD400CD9324 /* LengthLimitedInputView.h */,
+				5D0574731AAE8BD400CD9324 /* LengthLimitedInputView.m */,
+			);
+			path = LengthLimitedInputView;
+			sourceTree = "<group>";
+		};
+		5D0574741AAE8BD400CD9324 /* PickerViewTextField */ = {
+			isa = PBXGroup;
+			children = (
+				5D0574751AAE8BD400CD9324 /* PickerTextField.h */,
+				5D0574761AAE8BD400CD9324 /* PickerTextField.m */,
+			);
+			path = PickerViewTextField;
+			sourceTree = "<group>";
+		};
+		5D05747A1AAE8F4100CD9324 /* DateTimePickTextField */ = {
+			isa = PBXGroup;
+			children = (
+				5D05747B1AAE8F4100CD9324 /* ACDateTimePickTextField.h */,
+				5D05747C1AAE8F4100CD9324 /* ACDateTimePickTextField.m */,
+			);
+			path = DateTimePickTextField;
+			sourceTree = "<group>";
+		};
+		7D6437D4A0FA5075BD964CF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F071BB154F0E7CB32CBA7C92 /* libPods-CustomedTextFieldssssss.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B622345C836D089400D1B856 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EA831B4401790DC79F14808 /* Pods-CustomedTextFieldssssss.debug.xcconfig */,
+				98D521BCBED6F7ACEB4D85C3 /* Pods-CustomedTextFieldssssss.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D0574411AAE8A6300CD9324 /* CustomedTextFieldssssss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0574651AAE8A6400CD9324 /* Build configuration list for PBXNativeTarget "CustomedTextFieldssssss" */;
+			buildPhases = (
+				88318163592B4CA3CF2D6996 /* Check Pods Manifest.lock */,
+				5D05743E1AAE8A6300CD9324 /* Sources */,
+				5D05743F1AAE8A6300CD9324 /* Frameworks */,
+				5D0574401AAE8A6300CD9324 /* Resources */,
+				2831A1ED8E1ECC45B80CB5BB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomedTextFieldssssss;
+			productName = CustomedTextFieldssssss;
+			productReference = 5D0574421AAE8A6300CD9324 /* CustomedTextFieldssssss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D05745A1AAE8A6400CD9324 /* CustomedTextFieldssssssTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0574681AAE8A6400CD9324 /* Build configuration list for PBXNativeTarget "CustomedTextFieldssssssTests" */;
+			buildPhases = (
+				5D0574571AAE8A6400CD9324 /* Sources */,
+				5D0574581AAE8A6400CD9324 /* Frameworks */,
+				5D0574591AAE8A6400CD9324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D05745D1AAE8A6400CD9324 /* PBXTargetDependency */,
+			);
+			name = CustomedTextFieldssssssTests;
+			productName = CustomedTextFieldssssssTests;
+			productReference = 5D05745B1AAE8A6400CD9324 /* CustomedTextFieldssssssTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D05743A1AAE8A6300CD9324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "E-Techco Information Technologies Co., LTD.";
+				TargetAttributes = {
+					5D0574411AAE8A6300CD9324 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5D05745A1AAE8A6400CD9324 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5D0574411AAE8A6300CD9324;
+					};
+				};
+			};
+			buildConfigurationList = 5D05743D1AAE8A6300CD9324 /* Build configuration list for PBXProject "CustomedTextFieldssssss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D0574391AAE8A6300CD9324;
+			productRefGroup = 5D0574431AAE8A6300CD9324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D0574411AAE8A6300CD9324 /* CustomedTextFieldssssss */,
+				5D05745A1AAE8A6400CD9324 /* CustomedTextFieldssssssTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D0574401AAE8A6300CD9324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0574511AAE8A6400CD9324 /* Main.storyboard in Resources */,
+				5D0574561AAE8A6400CD9324 /* LaunchScreen.xib in Resources */,
+				5D0574531AAE8A6400CD9324 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0574591AAE8A6400CD9324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2831A1ED8E1ECC45B80CB5BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomedTextFieldssssss/Pods-CustomedTextFieldssssss-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88318163592B4CA3CF2D6996 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D05743E1AAE8A6300CD9324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D05744E1AAE8A6300CD9324 /* ViewController.m in Sources */,
+				5D05746E1AAE8B3A00CD9324 /* NumericalInputTextField.m in Sources */,
+				5D0574771AAE8BD400CD9324 /* GCPlaceholderTextView.m in Sources */,
+				5D05744B1AAE8A6300CD9324 /* AppDelegate.m in Sources */,
+				5D0574781AAE8BD400CD9324 /* LengthLimitedInputView.m in Sources */,
+				5D05747D1AAE8F4100CD9324 /* ACDateTimePickTextField.m in Sources */,
+				5D0574481AAE8A6300CD9324 /* main.m in Sources */,
+				5D0574791AAE8BD400CD9324 /* PickerTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0574571AAE8A6400CD9324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0574621AAE8A6400CD9324 /* CustomedTextFieldssssssTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D05745D1AAE8A6400CD9324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D0574411AAE8A6300CD9324 /* CustomedTextFieldssssss */;
+			targetProxy = 5D05745C1AAE8A6400CD9324 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D05744F1AAE8A6400CD9324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0574501AAE8A6400CD9324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D0574541AAE8A6400CD9324 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0574551AAE8A6400CD9324 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D0574631AAE8A6400CD9324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D0574641AAE8A6400CD9324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D0574661AAE8A6400CD9324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA831B4401790DC79F14808 /* Pods-CustomedTextFieldssssss.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomedTextFieldssssss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D0574671AAE8A6400CD9324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D521BCBED6F7ACEB4D85C3 /* Pods-CustomedTextFieldssssss.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomedTextFieldssssss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D0574691AAE8A6400CD9324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomedTextFieldssssssTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomedTextFieldssssss.app/CustomedTextFieldssssss";
+			};
+			name = Debug;
+		};
+		5D05746A1AAE8A6400CD9324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomedTextFieldssssssTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomedTextFieldssssss.app/CustomedTextFieldssssss";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D05743D1AAE8A6300CD9324 /* Build configuration list for PBXProject "CustomedTextFieldssssss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0574631AAE8A6400CD9324 /* Debug */,
+				5D0574641AAE8A6400CD9324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0574651AAE8A6400CD9324 /* Build configuration list for PBXNativeTarget "CustomedTextFieldssssss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0574661AAE8A6400CD9324 /* Debug */,
+				5D0574671AAE8A6400CD9324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0574681AAE8A6400CD9324 /* Build configuration list for PBXNativeTarget "CustomedTextFieldssssssTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0574691AAE8A6400CD9324 /* Debug */,
+				5D05746A1AAE8A6400CD9324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D05743A1AAE8A6300CD9324 /* Project object */;
+}
